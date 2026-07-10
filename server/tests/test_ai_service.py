@@ -1,4 +1,4 @@
-"""Unit tests for the Phase 3 OpenRouter AI service layer."""
+"""Unit tests for the OpenRouter AI service layer."""
 
 import asyncio
 from collections.abc import AsyncGenerator
@@ -133,7 +133,7 @@ def test_navigation_guidance_response_has_required_fields(monkeypatch: MonkeyPat
     _assert_polished_user_text(str(navigation_guidance["accessibility_notes"]))
 
 
-def test_ops_recommendation_returns_phase_2_fields(monkeypatch: MonkeyPatch) -> None:
+def test_ops_recommendation_returns_required_fields(monkeypatch: MonkeyPatch) -> None:
     """Verify operations recommendations return the required response shape.
 
     Args:
@@ -330,7 +330,7 @@ def test_openrouter_is_not_called_without_api_key(monkeypatch: MonkeyPatch) -> N
 
 
 def test_match_day_briefing_fallback_returns_required_fields(monkeypatch: MonkeyPatch) -> None:
-    """Verify match-day briefing fallback returns the Phase 3 response shape.
+    """Verify match-day briefing fallback returns the expected response shape.
 
     Args:
         monkeypatch: Pytest fixture for settings override.

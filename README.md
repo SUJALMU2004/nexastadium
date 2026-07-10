@@ -68,6 +68,18 @@ nexastadium/
   README.md
 ```
 
+```mermaid
+flowchart LR
+  Users[Fans / Volunteers / Venue Staff] --> Frontend[React Vite Frontend on Vercel]
+  Frontend --> Backend[FastAPI Backend on Render]
+  Backend --> LocalData[Local JSON Stadium Data]
+  Backend --> Services[Transit / Simulation / Reports / Safety Services]
+  Backend --> OpenRouter[OpenRouter AI API]
+  Backend --> Fallbacks[Deterministic Stadium Operations Responses]
+```
+
+The frontend never calls OpenRouter directly. The backend owns provider credentials, local JSON powers deterministic workflows, and fallback responses keep stadium operations guidance available when a model is unavailable or rate-limited.
+
 ### Frontend
 
 - React 18 with Vite
@@ -99,7 +111,7 @@ OPENROUTER_MODEL=poolside/laguna-xs-2.1:free
 
 If the OpenRouter key is missing, the free tier is rate-limited, or a model returns invalid structured output, the backend returns polished deterministic FIFA World Cup 2026 stadium guidance. User-facing responses do not show provider errors, fallback wording, or raw exceptions.
 
-NexaStadium AI uses local JSON data and deterministic backend services for this hackathon prototype. No external database setup is required.
+NexaStadium AI uses local JSON data and deterministic backend services. No external database requirement.
 
 ## Environment Variables
 
@@ -179,10 +191,21 @@ Frontend build:
 ```powershell
 cd client
 npm install
+npm run test:smoke
 npm run build
 ```
 
 The backend tests cover prompt sanitization, AI response contracts, invalid JSON fallback behavior, scenario engine, knowledge service, transit service, simulation service, report service, deployment safety, and removed external database setup.
+
+## Quality Gates
+
+- Backend tests run with `pytest` and do not require OpenRouter, Vercel, Render, external transit APIs, or a database.
+- Frontend smoke checks verify Vercel SPA routing, core React routes, OpenRouter frontend isolation, removed evaluation-only routes, and accessibility basics.
+- Frontend production build runs with Vite through `npm run build`.
+- GitHub Actions runs backend tests and frontend smoke/build checks on pushes and pull requests to `main`.
+- Dependabot monitors npm, pip, and GitHub Actions dependencies weekly.
+- Accessibility evidence includes skip navigation, native language selection, Arabic RTL handling, visible focus styles, labelled controls, and status semantics.
+- Deployment evidence includes `client/vercel.json` for React Router rewrites and `server/.python-version` for Render-compatible Python runtime pinning.
 
 ## Deployment
 
@@ -201,7 +224,8 @@ Do not add `OPENROUTER_API_KEY` to Vercel frontend environment variables.
 - Root directory: `server`
 - Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 - Health check: `GET /health`
-- Required env vars: `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`, `OPENROUTER_BASE_URL`, `OPENROUTER_SITE_URL`, `OPENROUTER_APP_NAME`, `ALLOWED_ORIGINS`, `ENVIRONMENT`, `RATE_LIMIT_PER_MINUTE`
+- Python runtime: `server/.python-version` pins `3.11.11`; set `PYTHON_VERSION=3.11.11` in Render as an additional platform guard.
+- Required env vars: `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`, `OPENROUTER_BASE_URL`, `OPENROUTER_SITE_URL`, `OPENROUTER_APP_NAME`, `ALLOWED_ORIGINS`, `ENVIRONMENT`, `RATE_LIMIT_PER_MINUTE`, `PYTHON_VERSION`
 
 Set `ALLOWED_ORIGINS` to include the deployed Vercel domain.
 

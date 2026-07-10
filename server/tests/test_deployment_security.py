@@ -1,5 +1,6 @@
 """Deployment and public-surface security tests for NexaStadium AI."""
 
+import json
 from pathlib import Path
 
 from fastapi.testclient import TestClient
@@ -26,6 +27,12 @@ FILES_SCANNED_FOR_EXTERNAL_DATABASE_SETUP = (
     "server/.env.example",
     "client/.env.example",
     "server/requirements.txt",
+)
+FRONTEND_OPENROUTER_FORBIDDEN_MARKERS = (
+    "OPENROUTER_API_KEY",
+    "VITE_OPENROUTER_API_KEY",
+    "openrouter.ai",
+    "dangerouslySetInnerHTML",
 )
 
 
@@ -97,3 +104,59 @@ def test_external_database_setup_is_not_configured() -> None:
                 marker_hits.append(f"{file_path.relative_to(PROJECT_ROOT)} contains {forbidden_marker}")
 
     assert marker_hits == []
+
+
+def test_frontend_openrouter_provider_boundary_is_not_exposed() -> None:
+    """Verify browser-facing files do not expose OpenRouter provider details.
+
+    Args:
+        None.
+
+    Returns:
+        None.
+    """
+    frontend_files_to_scan = list((PROJECT_ROOT / "client" / "src").rglob("*.*"))
+    frontend_files_to_scan.append(PROJECT_ROOT / "client" / ".env.example")
+
+    marker_hits: list[str] = []
+    for file_path in frontend_files_to_scan:
+        if not file_path.is_file():
+            continue
+        file_text = file_path.read_text(encoding="utf-8")
+        for forbidden_marker in FRONTEND_OPENROUTER_FORBIDDEN_MARKERS:
+            if forbidden_marker in file_text:
+                marker_hits.append(f"{file_path.relative_to(PROJECT_ROOT)} contains {forbidden_marker}")
+
+    assert marker_hits == []
+
+
+def test_vercel_spa_rewrite_is_configured() -> None:
+    """Verify Vercel serves React Router routes through the Vite app shell.
+
+    Args:
+        None.
+
+    Returns:
+        None.
+    """
+    vercel_config_path = PROJECT_ROOT / "client" / "vercel.json"
+    vercel_config = json.loads(vercel_config_path.read_text(encoding="utf-8"))
+
+    assert {
+        "source": "/(.*)",
+        "destination": "/index.html",
+    } in vercel_config["rewrites"]
+
+
+def test_render_python_runtime_is_pinned() -> None:
+    """Verify Render-compatible Python runtime pin is present.
+
+    Args:
+        None.
+
+    Returns:
+        None.
+    """
+    python_version_path = PROJECT_ROOT / "server" / ".python-version"
+
+    assert python_version_path.read_text(encoding="utf-8").strip() == "3.11.11"

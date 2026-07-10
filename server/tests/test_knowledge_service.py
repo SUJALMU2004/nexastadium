@@ -1,4 +1,4 @@
-"""Unit tests for the Phase 3 local knowledge service."""
+"""Unit tests for the local stadium operations knowledge service."""
 
 from app.services.knowledge_service import KnowledgeService
 

@@ -1,4 +1,4 @@
-"""Unit tests for deterministic Phase 3 simulation service."""
+"""Unit tests for deterministic stadium simulation service."""
 
 from app.models.simulation import CrowdRiskRequest, FlowControlRequest, ScenarioComparisonRequest
 from app.services.simulation_service import simulation_service

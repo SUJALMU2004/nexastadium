@@ -2,7 +2,7 @@
 
 FastAPI service for the no-auth NexaStadium AI platform. The backend exposes public FIFA World Cup 2026 stadium operations routes, cached local datasets, OpenRouter-backed AI responses with polished deterministic backup behavior, transit planning, crowd simulation, knowledge retrieval, and operations reports.
 
-Target runtime: Python 3.11.
+Target runtime: Python 3.11. Render-compatible runtime pin: `server/.python-version` contains `3.11.11`.
 
 ## Structure
 
@@ -50,7 +50,7 @@ If the key is missing, a free model is rate-limited, or OpenRouter returns inval
 
 ## AI Response Quality
 
-NexaStadium AI uses carefully structured prompts and deterministic response builders so fan assistance, navigation, operations recommendations, PA announcements, briefings, and safety packs stay calm, clear, accessible, stadium-specific, and demo-ready.
+NexaStadium AI uses carefully structured prompts and deterministic response builders so fan assistance, navigation, operations recommendations, PA announcements, briefings, and safety packs stay calm, clear, accessible, stadium-specific, and operations-ready.
 
 ## Start
 
@@ -74,6 +74,7 @@ Backend deployment target: Render, Railway, Fly.io, or a similar FastAPI host.
 - Install dependencies from `requirements.txt`
 - Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 - Health check: `GET /health`
+- Python runtime: keep `server/.python-version` at `3.11.11` and set Render `PYTHON_VERSION=3.11.11`.
 
 The frontend should be deployed separately from the `client` directory and should call this backend through `VITE_API_BASE_URL`.
 
@@ -89,9 +90,16 @@ Required OpenRouter fields:
 - `OPENROUTER_SITE_URL`
 - `OPENROUTER_APP_NAME`
 
+Deployment fields:
+
+- `ALLOWED_ORIGINS`
+- `ENVIRONMENT`
+- `RATE_LIMIT_PER_MINUTE`
+- `PYTHON_VERSION=3.11.11`
+
 ## Integration Policy
 
-OpenRouter is the only AI provider. The backend does not call provider-specific AI SDKs or external transit services during tests or deterministic response operation. NexaStadium AI uses local JSON data and deterministic backend services for this hackathon prototype. No external database setup is required. AI routes sanitize input, avoid logging prompt content, and return contextual FIFA World Cup 2026 responses.
+OpenRouter is the only AI provider. The backend does not call provider-specific AI SDKs or external transit services during tests or deterministic response operation. NexaStadium AI uses local JSON data and deterministic backend services. No external database requirement. AI routes sanitize input, avoid logging prompt content, and return contextual FIFA World Cup 2026 responses.
 
 ## Submission Cleanup
 
