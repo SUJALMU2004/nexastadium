@@ -1,0 +1,91 @@
+﻿{
+    "nav":  {
+                "mainNavigation":  "Hauptnavigation",
+                "logoLabel":  "Zum NexaStadium AI Fan-Portal wechseln",
+                "fan":  "Fans",
+                "ops":  "Betrieb",
+                "transit":  "Verkehr"
+            },
+    "common":  {
+                   "loading":  "Wird geladen...",
+                   "error":  "Der Stadion-Workflow konnte nicht geladen werden.",
+                   "retry":  "Erneut versuchen",
+                   "back":  "ZurÃ¼ck",
+                   "selectLanguage":  "Sprache auswÃ¤hlen",
+                   "skipToMain":  "Zum Hauptinhalt springen",
+                   "submit":  "Senden",
+                   "clear":  "LÃ¶schen",
+                   "copy":  "Kopieren",
+                   "refresh":  "Aktualisieren"
+               },
+    "footer":  {
+                   "phaseOne":  "Stadionbetriebsplattform fur FIFA World Cup 2026.",
+                   "noAuth":  "Fan-, Ops- und Transit-Portale bleiben fur Stadionteams und Spieltagssupport offen."
+               },
+    "languages":  {
+                      "en":  "Englisch",
+                      "es":  "Spanisch",
+                      "fr":  "FranzÃ¶sisch",
+                      "ar":  "Arabisch",
+                      "pt":  "Portugiesisch",
+                      "de":  "Deutsch"
+                  },
+    "fanHome":  {
+                    "title":  "Ihr Begleiter fÃ¼r den FIFA World Cup 2026 Spieltag"
+                },
+    "aiAssistant":  {
+                        "title":  "Stadion-KI-Assistent"
+                    },
+    "stadiumNavigator":  {
+                             "title":  "Finden Sie Ihren Weg im Stadion"
+                         },
+    "tripPlanner":  {
+                        "title":  "Planen Sie Ihre Spieltagsreise"
+                    },
+    "accessibilityGuide":  {
+                               "title":  "Barrierefreiheitsdienste und UnterstÃ¼tzung"
+                           },
+    "safetyGuide":  {
+                        "title":  "Mehrsprachiges SicherheitsunterstÃ¼tzungspaket"
+                    },
+    "opsDashboard":  {
+                         "title":  "Kommandozentrale Stadionbetrieb"
+                     },
+    "incidentManager":  {
+                            "title":  "Vorfallmanagement und KI-Reaktion"
+                        },
+    "announcementDraft":  {
+                              "title":  "KI-gestÃ¼tzter Durchsagen-Generator"
+                          },
+    "sustainabilityTracker":  {
+                                  "title":  "Dashboard fÃ¼r Nachhaltigkeit und CO2-FuÃŸabdruck"
+                              },
+    "crowdSimulator":  {
+                           "title":  "Crowd-Risk-Simulator"
+                       },
+    "matchDayBriefing":  {
+                             "title":  "KI-gestÃ¼tztes Spieltagsbriefing"
+                         },
+    "operationsReport":  {
+                             "title":  "Generator fÃ¼r Betriebsberichte"
+                         },
+    "egressPlanner":  {
+                          "title":  "Planer fÃ¼r Abreise nach dem Spiel"
+                      },
+    "routeRecommender":  {
+                             "title":  "Intelligenter Routenempfehler"
+                         },
+    "transportAlerts":  {
+                            "title":  "Live-Verkehrsmeldungen"
+                        },
+    "flowControl":  {
+                        "title":  "Planer fÃ¼r Verkehrs- und Torflusssteuerung"
+                    },
+    "phaseThree":  {
+                       "knowledge":  "Lokale Wissenssuche",
+                       "simulation":  "Crowd-Risk-Simulation",
+                       "briefing":  "Spieltagsbriefing",
+                       "safety":  "SicherheitsunterstÃ¼tzungspaket",
+                       "reports":  "Markdown-Betriebsbericht"
+                   }
+}

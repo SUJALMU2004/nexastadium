@@ -1,0 +1,35 @@
+[
+  {
+    "incident_type": "medical",
+    "title": "Medical emergency aisle clearance",
+    "priority": "critical",
+    "steps": [
+      "Notify venue medical command and identify the nearest section, aisle, and elevator bank.",
+      "Create a clear response corridor with stewards and security while nearby fans remain calm.",
+      "Pause nonessential movement in the affected seating block until medical staff confirm clearance."
+    ],
+    "escalation_trigger": "Escalate when the route to the medical room is blocked, the guest is unresponsive, or crowd movement prevents access."
+  },
+  {
+    "incident_type": "weather",
+    "title": "Weather disruption shelter flow",
+    "priority": "high",
+    "steps": [
+      "Move fans away from exposed stairways, open plazas, and temporary structures.",
+      "Open covered concourse capacity and keep accessible pathways unobstructed.",
+      "Coordinate transport and PA updates every ten minutes until the disruption is resolved."
+    ],
+    "escalation_trigger": "Escalate when lightning protocols activate, standing water blocks egress, or crowd density rises in covered zones."
+  },
+  {
+    "incident_type": "security",
+    "title": "Security concern containment",
+    "priority": "high",
+    "steps": [
+      "Confirm the concern with the zone supervisor before changing crowd flow.",
+      "Create a calm buffer around the affected area and keep accessible routes open.",
+      "Use neutral PA language that redirects fans without identifying sensitive details."
+    ],
+    "escalation_trigger": "Escalate when fan movement stops, a gate must close, or command requests a restricted-area response."
+  }
+]

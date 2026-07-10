@@ -1,0 +1,68 @@
+{
+  "en": {
+    "title": "FIFA World Cup 2026 Safety Support",
+    "steps": [
+      "Move calmly toward the nearest signed concourse or guest services point.",
+      "Keep accessible routes, elevator banks, and medical aisles clear.",
+      "Follow staff, volunteer, PA, and venue signage instructions before relying on informal directions."
+    ],
+    "accessibility_note": "Accessible support is available through guest services, marked entrances, and mobility assistance points.",
+    "transport_note": "For departure, use signed transit, rideshare, parking, and accessible pickup routes.",
+    "staff_help_message": "If you feel unsafe or need assistance, speak with the nearest FIFA World Cup 2026 venue staff member or volunteer."
+  },
+  "es": {
+    "title": "Soporte de seguridad de FIFA World Cup 2026",
+    "steps": [
+      "Avance con calma hacia el vestíbulo señalizado o el punto de atención al público más cercano.",
+      "Mantenga libres las rutas accesibles, los ascensores y los pasillos médicos.",
+      "Siga las instrucciones del personal, voluntarios, megafonía y señalización del estadio."
+    ],
+    "accessibility_note": "Hay apoyo accesible en atención al público, entradas señalizadas y puntos de asistencia de movilidad.",
+    "transport_note": "Para salir, use las rutas señalizadas de transporte, viajes compartidos, estacionamiento y recogida accesible.",
+    "staff_help_message": "Si no se siente seguro o necesita ayuda, hable con el personal o voluntarios del estadio de FIFA World Cup 2026."
+  },
+  "fr": {
+    "title": "Assistance sécurité FIFA World Cup 2026",
+    "steps": [
+      "Avancez calmement vers le hall ou le point d'accueil indiqué le plus proche.",
+      "Gardez les parcours accessibles, ascenseurs et couloirs médicaux dégagés.",
+      "Suivez les consignes du personnel, des bénévoles, de la sonorisation et de la signalisation du stade."
+    ],
+    "accessibility_note": "Une assistance accessible est disponible aux services aux spectateurs, aux entrées indiquées et aux points d'aide à la mobilité.",
+    "transport_note": "Pour quitter le stade, suivez les itinéraires indiqués vers transport, covoiturage, stationnement et prise en charge accessible.",
+    "staff_help_message": "Si vous ne vous sentez pas en sécurité ou avez besoin d'aide, contactez le personnel ou les bénévoles du stade FIFA World Cup 2026."
+  },
+  "ar": {
+    "title": "دعم السلامة في FIFA World Cup 2026",
+    "steps": [
+      "تحرك بهدوء نحو أقرب ردهة أو نقطة خدمات جماهير موضحة باللافتات.",
+      "أبق المسارات الميسرة والمصاعد وممرات الطوارئ الطبية مفتوحة.",
+      "اتبع تعليمات الموظفين والمتطوعين والإعلانات الصوتية ولافتات الملعب."
+    ],
+    "accessibility_note": "يتوفر دعم الوصول الميسر عند خدمات الجماهير والمداخل المحددة ونقاط مساعدة الحركة.",
+    "transport_note": "عند المغادرة، اتبع المسارات المحددة للنقل العام ومناطق التوصيل والمواقف ونقاط الالتقاط الميسرة.",
+    "staff_help_message": "إذا شعرت بعدم الأمان أو احتجت إلى مساعدة، تحدث إلى أقرب موظف أو متطوع في ملعب FIFA World Cup 2026."
+  },
+  "pt": {
+    "title": "Apoio de segurança da FIFA World Cup 2026",
+    "steps": [
+      "Siga com calma para o saguão sinalizado ou ponto de atendimento mais próximo.",
+      "Mantenha livres as rotas acessíveis, elevadores e corredores médicos.",
+      "Siga as orientações da equipe, voluntários, sistema de som e sinalização do estádio."
+    ],
+    "accessibility_note": "O apoio acessível está disponível no atendimento ao público, entradas sinalizadas e pontos de assistência de mobilidade.",
+    "transport_note": "Para sair, use as rotas sinalizadas para transporte, aplicativo, estacionamento e embarque acessível.",
+    "staff_help_message": "Se você se sentir inseguro ou precisar de ajuda, fale com a equipe ou voluntários do estádio da FIFA World Cup 2026."
+  },
+  "de": {
+    "title": "Sicherheitsunterstützung zur FIFA World Cup 2026",
+    "steps": [
+      "Gehen Sie ruhig zum nächstgelegenen ausgeschilderten Umlauf oder Gästeservicepunkt.",
+      "Halten Sie barrierefreie Wege, Aufzüge und medizinische Gänge frei.",
+      "Folgen Sie den Anweisungen von Personal, Freiwilligen, Durchsagen und Stadionbeschilderung."
+    ],
+    "accessibility_note": "Barrierefreie Unterstützung gibt es am Gästeservice, an gekennzeichneten Eingängen und an Mobilitätshilfepunkten.",
+    "transport_note": "Folgen Sie beim Verlassen den ausgeschilderten Wegen zu ÖPNV, Abholung, Parkplätzen und barrierefreien Abholpunkten.",
+    "staff_help_message": "Wenn Sie sich unsicher fühlen oder Hilfe benötigen, wenden Sie sich an das nächste FIFA World Cup 2026 Stadionpersonal oder Freiwillige."
+  }
+}

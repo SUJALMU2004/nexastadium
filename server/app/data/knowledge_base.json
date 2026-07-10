@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fan-accessibility-entry",
+    "title": "Accessible stadium entry support",
+    "category": "accessibility",
+    "content": "FIFA World Cup 2026 venues should keep accessible entry points, elevator banks, low-gradient routes, accessible restrooms, and guest services desks unobstructed before kickoff, at halftime, and after full-time.",
+    "stadium_ids": ["all"],
+    "tags": ["wheelchair", "accessible entrance", "guest services", "fan support"],
+    "priority": 5
+  },
+  {
+    "id": "crowd-entry-surge",
+    "title": "Two-hour match entry surge play",
+    "category": "crowd-management",
+    "content": "For a large arrival surge, operations teams should open additional ticket scanning lanes, separate accessible assistance routes, redirect volunteers to perimeter queues, and issue calm multilingual gate guidance.",
+    "stadium_ids": ["all"],
+    "tags": ["entry", "queue", "volunteers", "gates"],
+    "priority": 5
+  },
+  {
+    "id": "post-match-egress",
+    "title": "Post-match egress command priorities",
+    "category": "transportation",
+    "content": "After full-time, release seating tiers in waves, protect pedestrian crossings, coordinate with transit supervisors before large flows reach platforms, and keep accessible pickup corridors separate from rideshare queues.",
+    "stadium_ids": ["all"],
+    "tags": ["egress", "transit", "rideshare", "accessible pickup"],
+    "priority": 5
+  },
+  {
+    "id": "pa-announcement-safety",
+    "title": "Public address safety tone",
+    "category": "communications",
+    "content": "FIFA World Cup 2026 public address messages should be short, calm, inclusive, and repeated through PA, signage, volunteers, and information desks when the scenario affects fan movement.",
+    "stadium_ids": ["all"],
+    "tags": ["pa announcement", "multilingual", "safety", "communications"],
+    "priority": 4
+  },
+  {
+    "id": "medical-response-route",
+    "title": "Medical response route protection",
+    "category": "safety",
+    "content": "During a medical incident, the nearest aisle, elevator bank, and medical room route should be cleared immediately while nearby fans receive calm instructions to remain seated or step aside.",
+    "stadium_ids": ["all"],
+    "tags": ["medical", "incident", "aisle", "safety"],
+    "priority": 5
+  },
+  {
+    "id": "weather-covered-concourse",
+    "title": "Weather disruption covered-area guidance",
+    "category": "weather",
+    "content": "For rain or lightning delays, staff should move fans away from exposed stairs and plazas, open covered overflow zones, keep accessible routes clear, and coordinate transport updates if departure patterns change.",
+    "stadium_ids": ["all"],
+    "tags": ["weather", "covered concourse", "delay", "shelter"],
+    "priority": 4
+  },
+  {
+    "id": "sustainability-match-day",
+    "title": "Sustainability match-day operating cues",
+    "category": "sustainability",
+    "content": "Venue teams can reduce match-day impact by promoting refill stations, reusable cup returns, clearly staffed waste sorting points, public transit adoption, and low-idle energy settings during non-peak intervals.",
+    "stadium_ids": ["all"],
+    "tags": ["sustainability", "waste", "refill", "carbon"],
+    "priority": 3
+  },
+  {
+    "id": "volunteer-coordination",
+    "title": "Volunteer coordination under crowd pressure",
+    "category": "staff-coordination",
+    "content": "Volunteer leads should redeploy teams toward affected zones, keep one staff contact at information desks, escalate blocked accessible routes, and use consistent scripts for fan-facing guidance.",
+    "stadium_ids": ["all"],
+    "tags": ["volunteers", "staff", "coordination", "operations"],
+    "priority": 4
+  }
+]

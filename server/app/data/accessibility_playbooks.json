@@ -1,0 +1,20 @@
+[
+  {
+    "id": "accessible-arrival",
+    "title": "Accessible arrival support",
+    "guidance": "Keep accessible entrances staffed, verify elevator availability, separate mobility assistance queues from general security lines, and direct fans to guest services if they need escort support.",
+    "tags": ["arrival", "wheelchair", "elevator", "guest services"]
+  },
+  {
+    "id": "sensory-support",
+    "title": "Sensory and visual assistance",
+    "guidance": "Offer clear spoken directions, quieter waiting areas where available, visual assistance through guest services, and repeated confirmation before moving fans into high-density routes.",
+    "tags": ["sensory", "visual assistance", "low crowd route"]
+  },
+  {
+    "id": "accessible-egress",
+    "title": "Accessible post-match egress",
+    "guidance": "Hold accessible pickup corridors open, protect elevator banks from exit surges, and assign volunteers to mobility assistance points until the final exit wave clears.",
+    "tags": ["egress", "pickup", "elevator", "volunteers"]
+  }
+]

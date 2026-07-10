@@ -1,0 +1,467 @@
+[
+  {
+    "id": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "country": "United States",
+    "capacity": 87157,
+    "zones": [
+      {"zone_id": "ml-east-100", "name": "East Lower Bowl", "section_range": "101-149", "has_wheelchair_access": true},
+      {"zone_id": "ml-west-200", "name": "West Club Concourse", "section_range": "201-249", "has_wheelchair_access": true},
+      {"zone_id": "ml-upper-300", "name": "Upper Seating Deck", "section_range": "301-350", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["NJ Transit Meadowlands Rail Line via Secaucus Junction"],
+      "bus": ["Coach USA Meadowlands service", "NJ Transit event shuttle connections"],
+      "parking_zones": ["Lot E accessible parking", "Lot G general parking", "Lot L bus staging"],
+      "rideshare_dropoff": "Designated rideshare zone near Lot E outside the stadium perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["HCLTech Gate", "Pepsi Gate", "MetLife Gate"],
+      "hearing_loop_sections": ["Guest Services booths", "Club concourse service desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower concourse near sections 108 and 149", "Club level near sections 211 and 239", "Upper concourse near sections 313 and 345"]
+    },
+    "food_zones": [
+      {"zone_name": "Lower Concourse Market", "offerings": ["halal chicken bowl", "vegetarian grain bowl", "New Jersey deli sandwich"]},
+      {"zone_name": "Club Level Kitchens", "offerings": ["halal kebab wrap", "vegetarian flatbread", "New York-style pizza"]},
+      {"zone_name": "Upper Deck Stands", "offerings": ["halal hot dog", "vegetarian nachos", "pretzel with stadium mustard"]}
+    ]
+  },
+  {
+    "id": "att-stadium",
+    "name": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "country": "United States",
+    "capacity": 92967,
+    "zones": [
+      {"zone_id": "att-north-100", "name": "North Plaza Lower Bowl", "section_range": "101-150", "has_wheelchair_access": true},
+      {"zone_id": "att-club-200", "name": "Main Club Level", "section_range": "201-250", "has_wheelchair_access": true},
+      {"zone_id": "att-terrace-400", "name": "Terrace Seating", "section_range": "401-460", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["Trinity Railway Express connection to event shuttle staging"],
+      "bus": ["Arlington RAPID event service", "Regional charter bus drop-off routes"],
+      "parking_zones": ["Lot 10 accessible parking", "Lot 4 general parking", "Lot 15 bus and charter staging"],
+      "rideshare_dropoff": "Rideshare pickup and drop-off near Cowboys Way event zone"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Entry A", "Entry F", "Entry K"],
+      "hearing_loop_sections": ["Guest Services Centers", "Main club reception desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Main concourse near sections 105 and 146", "Club level near sections 215 and 242", "Terrace level near sections 405 and 456"]
+    },
+    "food_zones": [
+      {"zone_name": "Texas Market Hall", "offerings": ["halal brisket rice plate", "vegetarian tacos", "Texas barbecue plate"]},
+      {"zone_name": "Club Concourse", "offerings": ["halal chicken sandwich", "vegetarian chili", "smoked sausage roll"]},
+      {"zone_name": "Terrace Grill", "offerings": ["halal burger", "vegetarian loaded fries", "Dallas-style nachos"]}
+    ]
+  },
+  {
+    "id": "sofi-stadium",
+    "name": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "country": "United States",
+    "capacity": 70240,
+    "zones": [
+      {"zone_id": "sofi-lake-100", "name": "Lake Park Lower Bowl", "section_range": "100-149", "has_wheelchair_access": true},
+      {"zone_id": "sofi-main-200", "name": "Main Concourse", "section_range": "200-249", "has_wheelchair_access": true},
+      {"zone_id": "sofi-upper-500", "name": "Upper Terrace", "section_range": "500-553", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["Metro K Line to Downtown Inglewood with event shuttle", "Metro C Line connection via shuttle"],
+      "bus": ["Metro Bus event routes", "Inglewood event shuttle service"],
+      "parking_zones": ["Pink Zone accessible parking", "Orange Zone general parking", "Brown Zone bus staging"],
+      "rideshare_dropoff": "Rideshare zone on Kareem Court near the Hollywood Park perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Entry 2", "Entry 5", "Entry 8"],
+      "hearing_loop_sections": ["Guest Services desks", "Selected club reception locations"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Level 3 near sections 120 and 145", "Level 4 near sections 214 and 240", "Level 8 near sections 516 and 548"]
+    },
+    "food_zones": [
+      {"zone_name": "California Market", "offerings": ["halal chicken pita", "vegetarian avocado bowl", "Los Angeles street tacos"]},
+      {"zone_name": "Club Commons", "offerings": ["halal turkey burger", "vegetarian sushi roll", "Korean barbecue fries"]},
+      {"zone_name": "Upper Terrace Eats", "offerings": ["halal hot dog", "vegetarian burrito", "Inglewood chicken sandwich"]}
+    ]
+  },
+  {
+    "id": "levis-stadium",
+    "name": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "country": "United States",
+    "capacity": 70909,
+    "zones": [
+      {"zone_id": "levi-east-100", "name": "East Lower Bowl", "section_range": "101-146", "has_wheelchair_access": true},
+      {"zone_id": "levi-club-200", "name": "Club Concourse", "section_range": "201-246", "has_wheelchair_access": true},
+      {"zone_id": "levi-upper-400", "name": "Upper Seating", "section_range": "401-446", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["VTA light rail to Great America Station", "Capitol Corridor to Santa Clara-Great America"],
+      "bus": ["VTA event bus routes", "Regional shuttle routes from Caltrain connections"],
+      "parking_zones": ["Green Lot 1 accessible parking", "Blue Lot 1 general parking", "Red Lot bus staging"],
+      "rideshare_dropoff": "Rideshare pickup and drop-off at the Great America Parkway event zone"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Intel Gate A", "Dignity Health Gate C", "Toyota Gate F"],
+      "hearing_loop_sections": ["Guest Services offices", "Club service desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower concourse near sections 105 and 145", "Club level near sections 204 and 242", "Upper concourse near sections 405 and 445"]
+    },
+    "food_zones": [
+      {"zone_name": "Bay Area Market", "offerings": ["halal chicken rice bowl", "vegetarian falafel wrap", "Mission-style burrito"]},
+      {"zone_name": "Club Pantry", "offerings": ["halal turkey sandwich", "vegetarian noodle bowl", "garlic fries"]},
+      {"zone_name": "Upper Bowl Stands", "offerings": ["halal sausage", "vegetarian pizza", "California tri-tip sandwich"]}
+    ]
+  },
+  {
+    "id": "lincoln-financial-field",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "country": "United States",
+    "capacity": 69328,
+    "zones": [
+      {"zone_id": "lff-headhouse", "name": "HeadHouse Plaza", "section_range": "101-138", "has_wheelchair_access": true},
+      {"zone_id": "lff-club", "name": "Club Level", "section_range": "201-238", "has_wheelchair_access": true},
+      {"zone_id": "lff-upper", "name": "Upper Seating", "section_range": "301-338", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["SEPTA Broad Street Line to NRG Station"],
+      "bus": ["SEPTA event bus connections", "Regional charter bus staging"],
+      "parking_zones": ["Lot L accessible parking", "Lot K general parking", "Lot M bus staging"],
+      "rideshare_dropoff": "Rideshare zone near Broad Street and Pattison Avenue event perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["North Gate", "Pepsi Plaza Gate", "West Gate"],
+      "hearing_loop_sections": ["Guest Services booths", "Club level service counters"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Main concourse near sections 104 and 135", "Club level near sections 207 and 236", "Upper level near sections 304 and 335"]
+    },
+    "food_zones": [
+      {"zone_name": "Philly Market", "offerings": ["halal chicken cheesesteak", "vegetarian hoagie", "Philadelphia cheesesteak"]},
+      {"zone_name": "Club Level Grill", "offerings": ["halal beef burger", "vegetarian soft pretzel plate", "roast pork sandwich"]},
+      {"zone_name": "Upper Concourse", "offerings": ["halal hot dog", "vegetarian nachos", "water ice"]}
+    ]
+  },
+  {
+    "id": "gillette-stadium",
+    "name": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "country": "United States",
+    "capacity": 65878,
+    "zones": [
+      {"zone_id": "gillette-east-100", "name": "East Lower Bowl", "section_range": "101-143", "has_wheelchair_access": true},
+      {"zone_id": "gillette-club-200", "name": "Putnam Club Level", "section_range": "201-243", "has_wheelchair_access": true},
+      {"zone_id": "gillette-upper-300", "name": "Upper Bowl", "section_range": "301-343", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["MBTA Commuter Rail special event service to Foxboro Station"],
+      "bus": ["Regional coach bus service", "Event shuttle routes from remote lots"],
+      "parking_zones": ["Lot 4 accessible parking", "Lot 20 general parking", "Lot 52 bus staging"],
+      "rideshare_dropoff": "Rideshare pickup and drop-off near Patriot Place event area"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Bank of America Gate", "Comcast Business Gate", "Ticketmaster Gate"],
+      "hearing_loop_sections": ["Guest Services booths", "Club level desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Main concourse near sections 105 and 138", "Club level near sections 206 and 237", "Upper level near sections 305 and 337"]
+    },
+    "food_zones": [
+      {"zone_name": "New England Market", "offerings": ["halal chicken sandwich", "vegetarian chowder bowl", "lobster roll"]},
+      {"zone_name": "Club Tavern", "offerings": ["halal steak wrap", "vegetarian flatbread", "Boston baked beans plate"]},
+      {"zone_name": "Upper Bowl Grill", "offerings": ["halal hot dog", "vegetarian pizza", "clam strip basket"]}
+    ]
+  },
+  {
+    "id": "arrowhead-stadium",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "country": "United States",
+    "capacity": 76640,
+    "zones": [
+      {"zone_id": "arrowhead-lower", "name": "Lower Bowl", "section_range": "101-136", "has_wheelchair_access": true},
+      {"zone_id": "arrowhead-club", "name": "Club Level", "section_range": "201-246", "has_wheelchair_access": true},
+      {"zone_id": "arrowhead-upper", "name": "Upper Deck", "section_range": "301-346", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["KC Streetcar downtown connection to event shuttle staging"],
+      "bus": ["RideKC event routes", "Regional park-and-ride shuttles"],
+      "parking_zones": ["Lot B accessible parking", "Lot C general parking", "Lot N bus staging"],
+      "rideshare_dropoff": "Rideshare zone at the Truman Sports Complex event perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["CommunityAmerica Gate", "Ford Gate", "Tower Gate"],
+      "hearing_loop_sections": ["Guest Services locations", "Club level support desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower level near sections 102 and 134", "Club level near sections 205 and 244", "Upper level near sections 304 and 344"]
+    },
+    "food_zones": [
+      {"zone_name": "Kansas City Smokehouse", "offerings": ["halal smoked chicken", "vegetarian barbecue jackfruit", "Kansas City burnt ends"]},
+      {"zone_name": "Club Level Market", "offerings": ["halal burger", "vegetarian corn bowl", "barbecue nachos"]},
+      {"zone_name": "Upper Deck Grill", "offerings": ["halal hot dog", "vegetarian loaded potato", "smoked sausage sandwich"]}
+    ]
+  },
+  {
+    "id": "lumen-field",
+    "name": "Lumen Field",
+    "city": "Seattle, Washington",
+    "country": "United States",
+    "capacity": 69000,
+    "zones": [
+      {"zone_id": "lumen-north", "name": "North Plaza Lower Bowl", "section_range": "100-149", "has_wheelchair_access": true},
+      {"zone_id": "lumen-club", "name": "Club Level", "section_range": "200-249", "has_wheelchair_access": true},
+      {"zone_id": "lumen-hawk", "name": "Upper Hawk Nest", "section_range": "300-343", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["Sound Transit Link light rail to Stadium Station", "Sounder train to King Street Station"],
+      "bus": ["King County Metro event routes", "Sound Transit Express bus connections"],
+      "parking_zones": ["North Lot accessible parking", "Lumen Field Garage", "Bus staging near Royal Brougham Way"],
+      "rideshare_dropoff": "Rideshare zone south of the stadium near Royal Brougham Way"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["NW Gate", "SW Gate", "Event Center entrance"],
+      "hearing_loop_sections": ["GuestLink services", "Club level counters"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Main concourse near sections 104 and 140", "Club level near sections 206 and 236", "Upper level near sections 305 and 339"]
+    },
+    "food_zones": [
+      {"zone_name": "Pacific Northwest Market", "offerings": ["halal salmon rice bowl", "vegetarian mushroom burger", "Seattle salmon sandwich"]},
+      {"zone_name": "Club Commons", "offerings": ["halal chicken teriyaki", "vegetarian noodle bowl", "clam chowder bread bowl"]},
+      {"zone_name": "Upper Deck Eats", "offerings": ["halal hot dog", "vegetarian tacos", "coffee and pastry stand"]}
+    ]
+  },
+  {
+    "id": "hard-rock-stadium",
+    "name": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "country": "United States",
+    "capacity": 67518,
+    "zones": [
+      {"zone_id": "hardrock-south", "name": "South Lower Bowl", "section_range": "101-154", "has_wheelchair_access": true},
+      {"zone_id": "hardrock-club", "name": "Club Level", "section_range": "201-254", "has_wheelchair_access": true},
+      {"zone_id": "hardrock-upper", "name": "Upper Bowl", "section_range": "301-354", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["Brightline and Tri-Rail connections to event shuttles", "Metrorail connection via shuttle staging"],
+      "bus": ["Miami-Dade Transit event routes", "Broward County Transit connections"],
+      "parking_zones": ["Lot 18 accessible parking", "Lot 22 general parking", "Lot 42 bus staging"],
+      "rideshare_dropoff": "Rideshare pickup and drop-off near the southwest stadium perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Gate 1", "Gate 4", "Gate 8"],
+      "hearing_loop_sections": ["Guest Experience booths", "Club level desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower level near sections 107 and 149", "Club level near sections 217 and 246", "Upper level near sections 318 and 349"]
+    },
+    "food_zones": [
+      {"zone_name": "Miami Market", "offerings": ["halal chicken bowl", "vegetarian arepa", "Cuban sandwich"]},
+      {"zone_name": "Club Level Kitchen", "offerings": ["halal beef empanada", "vegetarian plantain bowl", "stone crab roll"]},
+      {"zone_name": "Upper Bowl Grill", "offerings": ["halal hot dog", "vegetarian nachos", "key lime dessert cup"]}
+    ]
+  },
+  {
+    "id": "mercedes-benz-stadium",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "country": "United States",
+    "capacity": 75000,
+    "zones": [
+      {"zone_id": "mbs-100", "name": "Lower Bowl", "section_range": "101-136", "has_wheelchair_access": true},
+      {"zone_id": "mbs-200", "name": "Club Concourse", "section_range": "201-248", "has_wheelchair_access": true},
+      {"zone_id": "mbs-300", "name": "Upper Bowl", "section_range": "301-350", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["MARTA Blue and Green lines to GWCC/CNN Center Station", "MARTA Vine City Station"],
+      "bus": ["MARTA bus connections", "Regional charter bus staging"],
+      "parking_zones": ["Red Deck accessible parking", "Silver Deck general parking", "Bus staging near Northside Drive"],
+      "rideshare_dropoff": "Rideshare zone near Northside Drive and Ivan Allen Jr Boulevard"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Gate 1", "Gate 2", "Gate 4"],
+      "hearing_loop_sections": ["Guest Services Centers", "Club service desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower concourse near sections 105 and 134", "Club level near sections 210 and 244", "Upper level near sections 305 and 344"]
+    },
+    "food_zones": [
+      {"zone_name": "Atlanta Market", "offerings": ["halal chicken and rice", "vegetarian black-eyed pea bowl", "Atlanta fried chicken sandwich"]},
+      {"zone_name": "Club Commons", "offerings": ["halal beef burger", "vegetarian collard greens bowl", "peach barbecue sliders"]},
+      {"zone_name": "Upper Bowl Eats", "offerings": ["halal hot dog", "vegetarian pizza", "Georgia peach dessert"]}
+    ]
+  },
+  {
+    "id": "nrg-stadium",
+    "name": "NRG Stadium",
+    "city": "Houston, Texas",
+    "country": "United States",
+    "capacity": 72220,
+    "zones": [
+      {"zone_id": "nrg-lower", "name": "Lower Bowl", "section_range": "101-140", "has_wheelchair_access": true},
+      {"zone_id": "nrg-club", "name": "Club Level", "section_range": "301-350", "has_wheelchair_access": true},
+      {"zone_id": "nrg-upper", "name": "Upper Deck", "section_range": "501-550", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["METRORail Red Line to Stadium Park/Astrodome Station"],
+      "bus": ["METRO local bus routes", "Event park-and-ride shuttles"],
+      "parking_zones": ["Blue Lot accessible parking", "Yellow Lot general parking", "Orange Lot bus staging"],
+      "rideshare_dropoff": "Rideshare zone near Gate 2 outside the NRG Park perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Coca-Cola Gate", "Ford Gate", "Amegy Bank Gate"],
+      "hearing_loop_sections": ["Guest Services booths", "Club service desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower concourse near sections 105 and 137", "Club level near sections 306 and 347", "Upper level near sections 506 and 547"]
+    },
+    "food_zones": [
+      {"zone_name": "Houston Market", "offerings": ["halal brisket bowl", "vegetarian Tex-Mex bowl", "Houston barbecue plate"]},
+      {"zone_name": "Club Level Grill", "offerings": ["halal chicken tacos", "vegetarian fajitas", "gulf shrimp po' boy"]},
+      {"zone_name": "Upper Deck Stands", "offerings": ["halal hot dog", "vegetarian nachos", "kolache stand"]}
+    ]
+  },
+  {
+    "id": "estadio-azteca",
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "capacity": 87523,
+    "zones": [
+      {"zone_id": "azteca-baja", "name": "Zona Baja", "section_range": "100-149", "has_wheelchair_access": true},
+      {"zone_id": "azteca-media", "name": "Zona Media", "section_range": "200-249", "has_wheelchair_access": true},
+      {"zone_id": "azteca-alta", "name": "Zona Alta", "section_range": "300-349", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["Tren Ligero to Estadio Azteca Station", "Metro Line 2 connection at Tasquena"],
+      "bus": ["RTP event bus routes", "Trolebus and shuttle connections"],
+      "parking_zones": ["Accessible parking near Puerta 1", "General parking west lots", "Bus staging near Calzada de Tlalpan"],
+      "rideshare_dropoff": "Rideshare drop-off near Calzada de Tlalpan event perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Puerta 1", "Puerta 3", "Puerta 7"],
+      "hearing_loop_sections": ["Guest service desks", "Main concourse assistance points"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Zona Baja near sections 104 and 142", "Zona Media near sections 208 and 238", "Zona Alta near sections 305 and 345"]
+    },
+    "food_zones": [
+      {"zone_name": "Mercado Azteca", "offerings": ["halal chicken tacos", "vegetarian quesadillas", "tacos al pastor"]},
+      {"zone_name": "Zona Media Food Court", "offerings": ["halal beef bowl", "vegetarian elote cup", "torta de milanesa"]},
+      {"zone_name": "Zona Alta Stands", "offerings": ["halal hot dog", "vegetarian nachos", "churros"]}
+    ]
+  },
+  {
+    "id": "estadio-bbva",
+    "name": "Estadio BBVA",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "capacity": 53460,
+    "zones": [
+      {"zone_id": "bbva-norte", "name": "Zona Norte", "section_range": "101-128", "has_wheelchair_access": true},
+      {"zone_id": "bbva-club", "name": "Club Level", "section_range": "201-228", "has_wheelchair_access": true},
+      {"zone_id": "bbva-sur", "name": "Zona Sur", "section_range": "301-328", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["Metrorrey connection to event shuttle routes"],
+      "bus": ["Transmetro event routes", "Regional bus staging"],
+      "parking_zones": ["Accessible parking near Puerta A", "General parking east lots", "Bus staging near Avenida Pablo Livas"],
+      "rideshare_dropoff": "Rideshare area near the Guadalupe event perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Puerta A", "Puerta C", "Puerta F"],
+      "hearing_loop_sections": ["Guest service modules", "Club reception desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower concourse near sections 105 and 124", "Club level near sections 204 and 224", "Upper level near sections 305 and 324"]
+    },
+    "food_zones": [
+      {"zone_name": "Monterrey Grill", "offerings": ["halal grilled chicken", "vegetarian bean tacos", "cabrito-style taco"]},
+      {"zone_name": "Club Food Hall", "offerings": ["halal beef burrito", "vegetarian enchiladas", "carne asada plate"]},
+      {"zone_name": "Upper Concourse", "offerings": ["halal hot dog", "vegetarian nachos", "glorias candy stand"]}
+    ]
+  },
+  {
+    "id": "estadio-akron",
+    "name": "Estadio Akron",
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "capacity": 48071,
+    "zones": [
+      {"zone_id": "akron-oriente", "name": "Zona Oriente", "section_range": "101-126", "has_wheelchair_access": true},
+      {"zone_id": "akron-poniente", "name": "Zona Poniente", "section_range": "201-226", "has_wheelchair_access": true},
+      {"zone_id": "akron-alta", "name": "Zona Alta", "section_range": "301-326", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["SITEUR light rail connection to event shuttle routes"],
+      "bus": ["Mi Transporte event bus routes", "Zapopan shuttle staging"],
+      "parking_zones": ["Accessible parking near Puerta 1", "General parking south lots", "Bus staging near Periferico"],
+      "rideshare_dropoff": "Rideshare zone outside the Zapopan stadium perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Puerta 1", "Puerta 4", "Puerta 7"],
+      "hearing_loop_sections": ["Guest service modules", "Main concourse desks"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Lower concourse near sections 104 and 122", "West concourse near sections 205 and 224", "Upper level near sections 304 and 324"]
+    },
+    "food_zones": [
+      {"zone_name": "Guadalajara Market", "offerings": ["halal chicken torta", "vegetarian tacos dorados", "birria-style taco"]},
+      {"zone_name": "West Concourse Grill", "offerings": ["halal beef bowl", "vegetarian pozole cup", "torta ahogada"]},
+      {"zone_name": "Upper Stands", "offerings": ["halal hot dog", "vegetarian nachos", "jericalla dessert"]}
+    ]
+  },
+  {
+    "id": "bc-place",
+    "name": "BC Place",
+    "city": "Vancouver, British Columbia",
+    "country": "Canada",
+    "capacity": 54500,
+    "zones": [
+      {"zone_id": "bc-lower", "name": "Lower Bowl", "section_range": "201-254", "has_wheelchair_access": true},
+      {"zone_id": "bc-club", "name": "Club Level", "section_range": "301-354", "has_wheelchair_access": true},
+      {"zone_id": "bc-upper", "name": "Upper Bowl", "section_range": "401-454", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["SkyTrain Expo Line to Stadium-Chinatown Station", "Canada Line to Yaletown-Roundhouse Station"],
+      "bus": ["TransLink downtown bus routes", "SeaBus and SkyTrain transfer connections"],
+      "parking_zones": ["Accessible parking at nearby reserved garages", "Downtown public parking garages", "Bus staging near Pacific Boulevard"],
+      "rideshare_dropoff": "Rideshare drop-off near Pacific Boulevard and Expo Boulevard"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Gate A", "Gate C", "Gate H"],
+      "hearing_loop_sections": ["Guest Services booths", "Club level support counters"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["Level 2 near sections 210 and 246", "Level 3 near sections 310 and 346", "Level 4 near sections 410 and 446"]
+    },
+    "food_zones": [
+      {"zone_name": "Vancouver Market", "offerings": ["halal chicken rice bowl", "vegetarian sushi roll", "Pacific salmon sandwich"]},
+      {"zone_name": "Club Food Hall", "offerings": ["halal beef burger", "vegetarian ramen bowl", "poutine"]},
+      {"zone_name": "Upper Bowl Eats", "offerings": ["halal hot dog", "vegetarian pizza", "Nanaimo bar"]}
+    ]
+  },
+  {
+    "id": "bmo-field",
+    "name": "BMO Field",
+    "city": "Toronto, Ontario",
+    "country": "Canada",
+    "capacity": 45736,
+    "zones": [
+      {"zone_id": "bmo-east", "name": "East Stand", "section_range": "101-123", "has_wheelchair_access": true},
+      {"zone_id": "bmo-west", "name": "West Stand", "section_range": "201-223", "has_wheelchair_access": true},
+      {"zone_id": "bmo-south", "name": "South End", "section_range": "301-323", "has_wheelchair_access": true}
+    ],
+    "transport_options": {
+      "metro": ["GO Transit to Exhibition Station", "TTC streetcar service to Exhibition Loop"],
+      "bus": ["TTC bus connections", "GO bus regional transfers"],
+      "parking_zones": ["Accessible parking at Exhibition Place", "Ontario Place parking", "Bus staging near Princes' Boulevard"],
+      "rideshare_dropoff": "Rideshare drop-off near Exhibition Place event perimeter"
+    },
+    "accessibility_features": {
+      "wheelchair_access_points": ["Gate 1", "Gate 3", "Gate 5"],
+      "hearing_loop_sections": ["Guest Services desks", "West stand service counters"],
+      "visual_assistance_available": true,
+      "accessible_restroom_locations": ["East stand near sections 105 and 120", "West stand near sections 205 and 220", "South end near sections 305 and 320"]
+    },
+    "food_zones": [
+      {"zone_name": "Toronto Market", "offerings": ["halal chicken shawarma", "vegetarian pierogi bowl", "peameal bacon sandwich"]},
+      {"zone_name": "West Stand Kitchen", "offerings": ["halal beef burger", "vegetarian poutine", "butter tart"]},
+      {"zone_name": "South End Stands", "offerings": ["halal hot dog", "vegetarian pizza", "Toronto street dog"]}
+    ]
+  }
+]
+

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "calm-communications",
+    "rule": "Fan-facing communications must be calm, specific, multilingual when needed, and consistent across PA, signage, volunteers, and information desks."
+  },
+  {
+    "id": "accessibility-first",
+    "rule": "Accessible entrances, restrooms, elevator banks, and pickup paths must remain open before nonessential crowd-flow optimizations."
+  },
+  {
+    "id": "no-real-time-claims",
+    "rule": "Demo outputs may provide deterministic planning guidance but must not claim exact live crowd, transit, weather, or match-result data."
+  },
+  {
+    "id": "staff-escalation",
+    "rule": "Medical access blockage, stopped crowd movement, or unsafe density requires immediate escalation to venue safety command."
+  }
+]

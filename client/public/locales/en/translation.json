@@ -1,0 +1,91 @@
+﻿{
+    "nav":  {
+                "mainNavigation":  "Main navigation",
+                "logoLabel":  "Go to NexaStadium AI fan portal",
+                "fan":  "Fan",
+                "ops":  "Ops",
+                "transit":  "Transit"
+            },
+    "common":  {
+                   "loading":  "Loading...",
+                   "error":  "The stadium workflow could not load.",
+                   "retry":  "Retry",
+                   "back":  "Back",
+                   "selectLanguage":  "Select language",
+                   "skipToMain":  "Skip to main content",
+                   "submit":  "Submit",
+                   "clear":  "Clear",
+                   "copy":  "Copy",
+                   "refresh":  "Refresh"
+               },
+    "footer":  {
+                   "phaseOne":  "FIFA World Cup 2026 stadium operations platform.",
+                   "noAuth":  "Fan, Ops, and Transit portals remain open for stadium teams and match-day support."
+               },
+    "languages":  {
+                      "en":  "English",
+                      "es":  "Spanish",
+                      "fr":  "French",
+                      "ar":  "Arabic",
+                      "pt":  "Portuguese",
+                      "de":  "German"
+                  },
+    "fanHome":  {
+                    "title":  "Your FIFA World Cup 2026 Match Day Companion"
+                },
+    "aiAssistant":  {
+                        "title":  "Stadium AI Assistant"
+                    },
+    "stadiumNavigator":  {
+                             "title":  "Find Your Way Around the Stadium"
+                         },
+    "tripPlanner":  {
+                        "title":  "Plan Your Match Day Journey"
+                    },
+    "accessibilityGuide":  {
+                               "title":  "Accessibility Services \u0026 Support"
+                           },
+    "safetyGuide":  {
+                        "title":  "Multilingual Safety Support Pack"
+                    },
+    "opsDashboard":  {
+                         "title":  "Stadium Operations Command Centre"
+                     },
+    "incidentManager":  {
+                            "title":  "Incident Management \u0026 AI Response"
+                        },
+    "announcementDraft":  {
+                              "title":  "AI-Powered PA Announcement Generator"
+                          },
+    "sustainabilityTracker":  {
+                                  "title":  "Sustainability \u0026 Carbon Footprint Dashboard"
+                              },
+    "crowdSimulator":  {
+                           "title":  "Crowd Risk Simulator"
+                       },
+    "matchDayBriefing":  {
+                             "title":  "AI-Assisted Match-Day Briefing"
+                         },
+    "operationsReport":  {
+                             "title":  "Operations Report Builder"
+                         },
+    "egressPlanner":  {
+                          "title":  "Post-Match Egress Planner"
+                      },
+    "routeRecommender":  {
+                             "title":  "Smart Route Recommender"
+                         },
+    "transportAlerts":  {
+                            "title":  "Live Transport Alerts"
+                        },
+    "flowControl":  {
+                        "title":  "Transit \u0026 Gate Flow-Control Planner"
+                    },
+    "phaseThree":  {
+                       "knowledge":  "Local knowledge retrieval",
+                       "simulation":  "Crowd risk simulation",
+                       "briefing":  "Match-day briefing",
+                       "safety":  "Safety support pack",
+                       "reports":  "Markdown operations report"
+                   }
+}

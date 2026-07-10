@@ -1,0 +1,91 @@
+﻿{
+    "nav":  {
+                "mainNavigation":  "NavegaciÃ³n principal",
+                "logoLabel":  "Ir al portal de aficionados de NexaStadium AI",
+                "fan":  "Aficionados",
+                "ops":  "Operaciones",
+                "transit":  "Transporte"
+            },
+    "common":  {
+                   "loading":  "Cargando...",
+                   "error":  "No se pudo cargar el flujo del estadio.",
+                   "retry":  "Intentar de nuevo",
+                   "back":  "Volver",
+                   "selectLanguage":  "Seleccionar idioma",
+                   "skipToMain":  "Saltar al contenido principal",
+                   "submit":  "Enviar",
+                   "clear":  "Borrar",
+                   "copy":  "Copiar",
+                   "refresh":  "Actualizar"
+               },
+    "footer":  {
+                   "phaseOne":  "Plataforma de operaciones de estadios para FIFA World Cup 2026.",
+                   "noAuth":  "Los portales Fan, Ops y Transit permanecen abiertos para equipos del estadio y apoyo en dia de partido."
+               },
+    "languages":  {
+                      "en":  "InglÃ©s",
+                      "es":  "EspaÃ±ol",
+                      "fr":  "FrancÃ©s",
+                      "ar":  "Ãrabe",
+                      "pt":  "PortuguÃ©s",
+                      "de":  "AlemÃ¡n"
+                  },
+    "fanHome":  {
+                    "title":  "Tu compaÃ±ero para el dÃ­a de partido de FIFA World Cup 2026"
+                },
+    "aiAssistant":  {
+                        "title":  "Asistente de IA del estadio"
+                    },
+    "stadiumNavigator":  {
+                             "title":  "Encuentra tu camino por el estadio"
+                         },
+    "tripPlanner":  {
+                        "title":  "Planifica tu viaje del dÃ­a de partido"
+                    },
+    "accessibilityGuide":  {
+                               "title":  "Servicios y apoyo de accesibilidad"
+                           },
+    "safetyGuide":  {
+                        "title":  "Paquete multilingÃ¼e de apoyo de seguridad"
+                    },
+    "opsDashboard":  {
+                         "title":  "Centro de mando de operaciones del estadio"
+                     },
+    "incidentManager":  {
+                            "title":  "GestiÃ³n de incidentes y respuesta con IA"
+                        },
+    "announcementDraft":  {
+                              "title":  "Generador de avisos por megafonÃ­a con IA"
+                          },
+    "sustainabilityTracker":  {
+                                  "title":  "Panel de sostenibilidad y huella de carbono"
+                              },
+    "crowdSimulator":  {
+                           "title":  "Simulador de riesgo de multitudes"
+                       },
+    "matchDayBriefing":  {
+                             "title":  "Resumen de dÃ­a de partido asistido por IA"
+                         },
+    "operationsReport":  {
+                             "title":  "Generador de informes de operaciones"
+                         },
+    "egressPlanner":  {
+                          "title":  "Planificador de salida posterior al partido"
+                      },
+    "routeRecommender":  {
+                             "title":  "Recomendador inteligente de rutas"
+                         },
+    "transportAlerts":  {
+                            "title":  "Alertas de transporte en vivo"
+                        },
+    "flowControl":  {
+                        "title":  "Planificador de control de flujo de puertas y transporte"
+                    },
+    "phaseThree":  {
+                       "knowledge":  "RecuperaciÃ³n de conocimiento local",
+                       "simulation":  "SimulaciÃ³n de riesgo de multitudes",
+                       "briefing":  "Resumen de dÃ­a de partido",
+                       "safety":  "Paquete de apoyo de seguridad",
+                       "reports":  "Informe de operaciones en Markdown"
+                   }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "MATCH_ENTRY_SURGE",
+    "name": "Match Entry Surge",
+    "description": "Seventy-five thousand fans are arriving within two hours before kickoff, creating pressure at screening, ticket scanning, and gate queues.",
+    "affected_zones": ["perimeter gates", "security screening", "ticket scanning lanes", "main concourse"],
+    "crowd_density_percentage": 86,
+    "recommended_actions": [
+      "Open all available ticket scanning lanes and accessible priority entries.",
+      "Shift volunteers from low-demand plazas to perimeter queue management.",
+      "Send PA and mobile messages directing fans to lower-density gates."
+    ],
+    "suggested_announcement_templates": [
+      "Welcome to {stadium}. To enter more quickly, please use the open gates shown on venue signs and follow staff instructions.",
+      "Fans at {stadium} may use accessible entry points at the marked gates for mobility support."
+    ]
+  },
+  {
+    "id": "HALFTIME_RUSH",
+    "name": "Halftime Rush",
+    "description": "Food, beverage, and restroom demand spikes at the forty-five minute interval.",
+    "affected_zones": ["food courts", "restroom corridors", "main concourse", "accessible service counters"],
+    "crowd_density_percentage": 78,
+    "recommended_actions": [
+      "Activate express lanes for water and packaged food.",
+      "Deploy volunteers to restroom queue splitting points.",
+      "Prioritize accessible concession counters and keep elevator landings clear."
+    ],
+    "suggested_announcement_templates": [
+      "Guests at {stadium}, additional food and restroom locations are open on the outer concourse.",
+      "Please keep accessible routes clear while moving through {stadium} during halftime."
+    ]
+  },
+  {
+    "id": "POST_MATCH_EGRESS",
+    "name": "Post-Match Egress",
+    "description": "The full stadium is exiting at final whistle, requiring managed flows toward transit, rideshare, parking, and accessible pickup points.",
+    "affected_zones": ["exit ramps", "transit plaza", "rideshare pickup", "parking corridors"],
+    "crowd_density_percentage": 95,
+    "recommended_actions": [
+      "Use phased exit guidance by seating tier and gate.",
+      "Hold rideshare queues outside primary pedestrian crossings.",
+      "Coordinate with transit teams before releasing the largest concourse flows."
+    ],
+    "suggested_announcement_templates": [
+      "Thank you for joining FIFA World Cup 2026 at {stadium}. Please follow the signed exit routes for transit, parking, and rideshare.",
+      "Accessible pickup support is available at the marked guest services points outside {stadium}."
+    ]
+  },
+  {
+    "id": "MEDICAL_EMERGENCY",
+    "name": "Medical Emergency",
+    "description": "A seating section needs a controlled response path for medical staff and temporary aisle clearance.",
+    "affected_zones": ["affected seating section", "nearest aisle", "medical room", "elevator bank"],
+    "crowd_density_percentage": 64,
+    "recommended_actions": [
+      "Clear the nearest aisle and protect the medical response route.",
+      "Pause nonessential fan movement around the affected section.",
+      "Assign one supervisor to coordinate medical, security, and guest services."
+    ],
+    "suggested_announcement_templates": [
+      "Guests at {stadium}, please keep the aisles clear and follow staff directions in your section.",
+      "Medical staff are assisting a guest at {stadium}. Thank you for remaining calm and cooperative."
+    ]
+  },
+  {
+    "id": "VIP_ARRIVAL",
+    "name": "VIP Arrival",
+    "description": "Separate entry lane activation is required while keeping public gate movement stable and accessible routes open.",
+    "affected_zones": ["vip entry", "service corridor", "media checkpoint", "adjacent public gates"],
+    "crowd_density_percentage": 52,
+    "recommended_actions": [
+      "Activate credential checks before the VIP convoy reaches the entry lane.",
+      "Keep adjacent public gates staffed so fan entry does not slow.",
+      "Separate media, staff, and accessible assistance traffic with clear signage."
+    ],
+    "suggested_announcement_templates": [
+      "Guests at {stadium}, please continue using the public gates shown on your ticket and venue signs.",
+      "Some service lanes at {stadium} are reserved for event operations. Public entries remain open."
+    ]
+  },
+  {
+    "id": "WEATHER_DISRUPTION",
+    "name": "Weather Disruption",
+    "description": "Rain delay conditions require covered-area crowd management, clear messaging, and safe concourse flow.",
+    "affected_zones": ["covered concourse", "open seating bowls", "gate shelters", "transit plaza"],
+    "crowd_density_percentage": 82,
+    "recommended_actions": [
+      "Move fans away from exposed stairs and open plazas.",
+      "Open covered overflow zones and keep accessible routes unobstructed.",
+      "Coordinate transport messaging if departure patterns change."
+    ],
+    "suggested_announcement_templates": [
+      "Guests at {stadium}, weather is being monitored. Please move calmly to covered areas and follow staff instructions.",
+      "For your safety at {stadium}, avoid exposed stairways and keep accessible paths clear."
+    ]
+  }
+]
+

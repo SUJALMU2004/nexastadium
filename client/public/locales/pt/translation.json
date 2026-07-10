@@ -1,0 +1,91 @@
+﻿{
+    "nav":  {
+                "mainNavigation":  "NavegaÃ§Ã£o principal",
+                "logoLabel":  "Ir para o portal de torcedores do NexaStadium AI",
+                "fan":  "Torcedor",
+                "ops":  "OperaÃ§Ãµes",
+                "transit":  "Transporte"
+            },
+    "common":  {
+                   "loading":  "Carregando...",
+                   "error":  "O fluxo do estÃ¡dio nÃ£o pÃ´de carregar.",
+                   "retry":  "Tentar novamente",
+                   "back":  "Voltar",
+                   "selectLanguage":  "Selecionar idioma",
+                   "skipToMain":  "Ir para o conteÃºdo principal",
+                   "submit":  "Enviar",
+                   "clear":  "Limpar",
+                   "copy":  "Copiar",
+                   "refresh":  "Atualizar"
+               },
+    "footer":  {
+                   "phaseOne":  "Plataforma de operacoes de estadio para FIFA World Cup 2026.",
+                   "noAuth":  "Os portais Fan, Ops e Transit permanecem abertos para equipes do estadio e apoio no dia da partida."
+               },
+    "languages":  {
+                      "en":  "InglÃªs",
+                      "es":  "Espanhol",
+                      "fr":  "FrancÃªs",
+                      "ar":  "Ãrabe",
+                      "pt":  "PortuguÃªs",
+                      "de":  "AlemÃ£o"
+                  },
+    "fanHome":  {
+                    "title":  "Seu companheiro de dia de jogo da FIFA World Cup 2026"
+                },
+    "aiAssistant":  {
+                        "title":  "Assistente de IA do estÃ¡dio"
+                    },
+    "stadiumNavigator":  {
+                             "title":  "Encontre seu caminho pelo estÃ¡dio"
+                         },
+    "tripPlanner":  {
+                        "title":  "Planeje sua jornada de dia de jogo"
+                    },
+    "accessibilityGuide":  {
+                               "title":  "ServiÃ§os e suporte de acessibilidade"
+                           },
+    "safetyGuide":  {
+                        "title":  "Pacote multilÃ­ngue de suporte Ã  seguranÃ§a"
+                    },
+    "opsDashboard":  {
+                         "title":  "Centro de comando de operaÃ§Ãµes do estÃ¡dio"
+                     },
+    "incidentManager":  {
+                            "title":  "GestÃ£o de incidentes e resposta com IA"
+                        },
+    "announcementDraft":  {
+                              "title":  "Gerador de anÃºncios por IA"
+                          },
+    "sustainabilityTracker":  {
+                                  "title":  "Painel de sustentabilidade e pegada de carbono"
+                              },
+    "crowdSimulator":  {
+                           "title":  "Simulador de risco de multidÃ£o"
+                       },
+    "matchDayBriefing":  {
+                             "title":  "Briefing de dia de jogo assistido por IA"
+                         },
+    "operationsReport":  {
+                             "title":  "Gerador de relatÃ³rio de operaÃ§Ãµes"
+                         },
+    "egressPlanner":  {
+                          "title":  "Planejador de saÃ­da pÃ³s-jogo"
+                      },
+    "routeRecommender":  {
+                             "title":  "Recomendador inteligente de rotas"
+                         },
+    "transportAlerts":  {
+                            "title":  "Alertas de transporte ao vivo"
+                        },
+    "flowControl":  {
+                        "title":  "Planejador de controle de fluxo de transporte e portÃµes"
+                    },
+    "phaseThree":  {
+                       "knowledge":  "RecuperaÃ§Ã£o de conhecimento local",
+                       "simulation":  "SimulaÃ§Ã£o de risco de multidÃ£o",
+                       "briefing":  "Briefing de dia de jogo",
+                       "safety":  "Pacote de suporte Ã  seguranÃ§a",
+                       "reports":  "RelatÃ³rio de operaÃ§Ãµes em Markdown"
+                   }
+}
