@@ -117,7 +117,7 @@ export default function EgressPlanner() {
           </form>
         </Card>
 
-        <Card title="Exit Strategy" description="Stadium-specific deterministic output for Phase 3 evaluation.">
+        <Card title="Exit Strategy" description="Stadium-specific exit guidance for safe post-match movement.">
           <ErrorMessage message={egressError} />
           {isLoadingPlan ? <LoadingSpinner message="Generating egress plan" /> : null}
           {!isLoadingPlan && !egressPlan ? (

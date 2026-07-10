@@ -41,7 +41,7 @@ export function StadiumProvider({ children }) {
     let shouldUpdateState = true;
 
     /**
-     * Load stadium and scenario records once for shared Phase 3 controls.
+     * Load stadium and scenario records once for shared product controls.
      *
      * @returns {Promise<void>} Resolves after cached context data has been refreshed.
      */

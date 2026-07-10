@@ -42,7 +42,7 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     _ = app
     logger.info("NexaStadium AI starting up")
     if not settings.OPENROUTER_API_KEY:
-        logger.warning("OPENROUTER_API_KEY is not set - AI endpoints will use deterministic Phase 3 fallback responses.")
+        logger.warning("OPENROUTER_API_KEY is not set - AI endpoints will use deterministic stadium operations responses.")
     if not settings.OPENROUTER_MODEL:
         logger.warning("OPENROUTER_MODEL is empty; OpenRouter calls will use poolside/laguna-xs-2.1:free.")
     yield

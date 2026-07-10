@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 /**
- * Render shared footer context for the open Phase 3 platform.
+ * Render shared footer context for the open stadium operations platform.
  *
  * @returns {JSX.Element} Footer content.
  */

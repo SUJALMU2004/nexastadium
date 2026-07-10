@@ -96,7 +96,7 @@ export default function CrowdSimulator() {
       </PageHeader>
 
       <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-        <Card title="Simulation Inputs" description="Use deterministic planning assumptions; no live crowd feeds are called in Phase 3.">
+        <Card title="Simulation Inputs" description="Use venue planning assumptions when live crowd feeds are not connected.">
           <form className="space-y-4" onSubmit={handleSimulatorSubmit}>
             <FormField label="Expected attendance" htmlFor="simulator-attendance">
               <input

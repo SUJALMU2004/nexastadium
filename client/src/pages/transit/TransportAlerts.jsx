@@ -11,7 +11,7 @@ import { StadiumContext } from "../../context/StadiumContext.jsx";
 import { fetchTransportAlerts } from "../../services/transitService.js";
 
 /**
- * Render deterministic stadium transport alerts with severity and actions.
+ * Render stadium transport alerts with severity and actions.
  *
  * @returns {JSX.Element} Transport alerts page.
  */
@@ -70,13 +70,13 @@ export default function TransportAlerts() {
       <PageHeader
         eyebrow={t("nav.transit")}
         title={t("transportAlerts.title")}
-        description={`Review deterministic transport alerts for ${activeStadiumName}, including rail, bus, rideshare, parking, and accessible travel advisories.`}
+        description={`Review transport alerts for ${activeStadiumName}, including rail, bus, rideshare, parking, and accessible travel advisories.`}
       >
         <StadiumSelector id="transport-alerts-stadium-selector" label="Alert venue" />
       </PageHeader>
 
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-        <p className="text-sm leading-6 text-stadium-primary/70">Alerts refresh from the local Phase 3 backend only; no live transit API is called.</p>
+        <p className="text-sm leading-6 text-stadium-primary/70">Alerts refresh from the local stadium operations backend; no live transit agency feed is required.</p>
         <button
           type="button"
           aria-label="Refresh transport alerts"
@@ -90,7 +90,7 @@ export default function TransportAlerts() {
       <ErrorMessage message={alertsError} />
       {isLoadingAlerts ? <LoadingSpinner message="Loading transport alerts" /> : null}
       {!isLoadingAlerts && transportAlerts.length === 0 ? (
-        <EmptyState title="No transport alerts loaded" message="Select a stadium or refresh alerts to load deterministic service notices." />
+        <EmptyState title="No transport alerts loaded" message="Select a stadium or refresh alerts to load service notices." />
       ) : null}
 
       <div className="grid gap-4 lg:grid-cols-3">

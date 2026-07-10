@@ -9,7 +9,7 @@
   },
   {
     "id": "no-real-time-claims",
-    "rule": "Demo outputs may provide deterministic planning guidance but must not claim exact live crowd, transit, weather, or match-result data."
+    "rule": "Planning guidance must not claim exact live crowd, transit, weather, or match-result data unless that information is explicitly provided by an official source."
   },
   {
     "id": "staff-escalation",

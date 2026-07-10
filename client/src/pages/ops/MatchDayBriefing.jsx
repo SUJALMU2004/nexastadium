@@ -154,7 +154,7 @@ export default function MatchDayBriefing() {
             <ErrorMessage message={briefingError} />
             {isLoadingBriefing ? <LoadingSpinner message="Generating match-day briefing" /> : null}
             {!isLoadingBriefing && !briefingResponse ? (
-              <EmptyState title="No briefing generated yet" message="Submit command context to generate the Phase 3 match-day briefing." />
+              <EmptyState title="No briefing generated yet" message="Submit command context to generate the match-day briefing." />
             ) : null}
             {briefingResponse ? (
               <>

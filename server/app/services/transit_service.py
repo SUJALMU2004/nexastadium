@@ -40,8 +40,8 @@ class TransitService:
             ],
             rideshare_dropoff=transport_options.rideshare_dropoff,
             service_notes=(
-                "Phase 3 uses deterministic FIFA World Cup 2026 venue transport guidance. "
-                "Live agency feeds can be connected later without changing the route contract."
+                "NexaStadium AI uses local FIFA World Cup 2026 venue transport guidance for this route. "
+                "Live agency feeds can be connected later without changing the public route contract."
             ),
         )
 

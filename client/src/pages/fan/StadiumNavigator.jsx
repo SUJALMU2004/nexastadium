@@ -18,7 +18,7 @@ import {
 } from "../../utils/constants.js";
 
 /**
- * Render the stadium wayfinding workflow backed by deterministic AI guidance.
+ * Render the stadium wayfinding workflow backed by AI guidance.
  *
  * @returns {JSX.Element} Stadium navigator page.
  */
@@ -122,7 +122,7 @@ export default function StadiumNavigator() {
           </form>
         </Card>
 
-        <Card title="Route Guidance" description="Phase 3 returns deterministic, stadium-safe directions without external calls when the AI gateway is unavailable.">
+        <Card title="Route Guidance" description="Stadium-safe directions prioritize clear signage, accessibility, and calm fan movement.">
           <ErrorMessage message={guidanceError} />
           {isLoadingGuidance ? <LoadingSpinner message="Generating navigation guidance" /> : null}
           {!isLoadingGuidance && !navigationGuidance ? (

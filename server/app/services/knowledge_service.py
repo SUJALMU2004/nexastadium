@@ -1,4 +1,4 @@
-"""Cached local knowledge retrieval for NexaStadium AI Phase 3 workflows."""
+"""Cached local knowledge retrieval for NexaStadium AI operations workflows."""
 
 import json
 from pathlib import Path

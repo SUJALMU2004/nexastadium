@@ -24,7 +24,7 @@ Large tournament venues need calm communication, accessible routing, crowd-flow 
 - Backend-only OpenRouter integration: no AI key is exposed to the browser.
 - Local JSON venue intelligence for all 16 FIFA World Cup 2026 host stadiums.
 - Deterministic fallback responses keep the demo useful when the free AI tier is unavailable.
-- No external database or Supabase setup is required.
+- No external database requirement.
 - Prompt guard, rate limiting, CORS settings, human-readable API errors, and no raw provider errors.
 - Accessible UI patterns: skip link, native language selector, visible labels, focus rings, semantic lists/tables, and RTL support.
 
@@ -208,7 +208,7 @@ Set `ALLOWED_ORIGINS` to include the deployed Vercel domain.
 ## Security And Quality Notes
 
 - No login, JWT, role guards, protected routes, or token storage.
-- No Supabase or external database requirement.
+- No external database requirement.
 - No real transit API integration in this prototype.
 - No OpenRouter key in frontend code, localStorage, or Vercel frontend env vars.
 - Prompt inputs are sanitized, truncated, and guarded before AI calls.
@@ -217,7 +217,7 @@ Set `ALLOWED_ORIGINS` to include the deployed Vercel domain.
 
 ## Repository Map
 
-Use `SOLUTION_MAP.md` to see how every product domain maps to the implementation files. That document is intended for judges, reviewers, and maintainers who want to evaluate problem-statement alignment quickly.
+Use `SOLUTION_MAP.md` to see how every product domain maps to the implementation files for architecture review and maintenance.
 
 ## Known Limitations
 

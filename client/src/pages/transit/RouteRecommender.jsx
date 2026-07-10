@@ -64,7 +64,7 @@ export default function RouteRecommender() {
       <PageHeader
         eyebrow={t("nav.transit")}
         title={t("routeRecommender.title")}
-        description={`Recommend a safer, clearer path to ${activeStadiumName} using deterministic World Cup venue transport options.`}
+        description={`Recommend a safer, clearer path to ${activeStadiumName} using FIFA World Cup 2026 venue transport options.`}
       >
         <StadiumSelector id="route-stadium-selector" label="Route venue" />
       </PageHeader>
@@ -122,7 +122,7 @@ export default function RouteRecommender() {
           </form>
         </Card>
 
-        <Card title="Recommended Route" description="Phase 3 returns local guidance only; no real transit API is called.">
+        <Card title="Recommended Route" description="Local venue guidance keeps the route clear, practical, and stadium-specific.">
           <ErrorMessage message={routeError} />
           {isLoadingRoute ? <LoadingSpinner message="Generating route recommendation" /> : null}
           {!isLoadingRoute && !routeRecommendation ? (
