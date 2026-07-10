@@ -32,7 +32,8 @@ Large tournament venues need calm communication, accessible routing, crowd-flow 
 
 ### Fan Portal
 
-- `/fan`
+- `/`
+- `/fan` redirects to `/`
 - `/fan/assistant`
 - `/fan/navigator`
 - `/fan/trip-planner`

@@ -27,13 +27,13 @@ export default function Navbar() {
         {t("common.skipToMain")}
       </a>
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-        <NavLink to="/fan" aria-label={t("nav.logoLabel")} className="flex items-center gap-3">
+        <NavLink to="/" aria-label={t("nav.logoLabel")} className="flex items-center gap-3">
           <span aria-hidden="true" className="h-3 w-3 rounded-full bg-stadium-accent" />
           <span className="text-lg font-bold tracking-normal">NexaStadium AI</span>
         </NavLink>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <div className="flex flex-wrap gap-2">
-            <NavLink to="/fan" aria-label={t("nav.fan")} className={navLinkClassName}>
+            <NavLink to="/" aria-label={t("nav.fan")} className={navLinkClassName} end>
               {t("nav.fan")}
             </NavLink>
             <NavLink to="/ops" aria-label={t("nav.ops")} className={navLinkClassName}>

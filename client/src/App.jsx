@@ -36,8 +36,8 @@ export default function App() {
             <Navbar />
             <main id="main-content" className="mx-auto w-full max-w-7xl flex-1 px-4 py-8 lg:px-8">
               <Routes>
-                <Route path="/" element={<Navigate to="/fan" replace />} />
-                <Route path="/fan" element={<FanHome />} />
+                <Route path="/" element={<FanHome />} />
+                <Route path="/fan" element={<Navigate to="/" replace />} />
                 <Route path="/fan/assistant" element={<AIAssistant />} />
                 <Route path="/fan/navigator" element={<StadiumNavigator />} />
                 <Route path="/fan/trip-planner" element={<TripPlanner />} />
@@ -55,7 +55,7 @@ export default function App() {
                 <Route path="/transit/routes" element={<RouteRecommender />} />
                 <Route path="/transit/alerts" element={<TransportAlerts />} />
                 <Route path="/transit/flow-control" element={<FlowControl />} />
-                <Route path="*" element={<Navigate to="/fan" replace />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </main>
             <Footer />

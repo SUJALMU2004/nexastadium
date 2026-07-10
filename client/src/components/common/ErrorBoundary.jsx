@@ -55,7 +55,7 @@ export default class ErrorBoundary extends React.Component {
               The platform could not render this stadium workflow. Return to the fan portal and continue with public match day support.
             </p>
             <a
-              href="/fan"
+              href="/"
               aria-label="Return to fan home"
               className="mt-5 inline-flex rounded-md bg-stadium-accent px-4 py-2 font-semibold text-stadium-primary"
             >
